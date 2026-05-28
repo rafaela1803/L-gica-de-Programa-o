@@ -1,0 +1,45 @@
+Algoritmo "CalculadoraBasica"
+
+Var
+  num1, num2, resultado : Real
+  opcao : Inteiro
+Inicio
+  
+  Escreval("--- CALCULADORA BÁSICA ---")
+
+  Escreva("Digite o primeiro número: ")
+  Leia(num1)
+  Escreva("Digite o segundo número: ")
+  Leia(num2)
+  Escreval("")
+  Escreval("Escolha a operação:")
+  Escreval("1 - Soma")
+  Escreval("2 - Subtração")
+  Escreval("3 - Multiplicação")
+  Escreval("4 - Divisão")
+  Escreva("Opção: ")
+  Leia(opcao)
+  Escreval("")
+  
+  Escolha opcao
+     Caso 1
+        resultado <- num1 + num2
+        Escreval("Resultado da Soma: ", resultado)
+     Caso 2
+        resultado <- num1 - num2
+        Escreval("Resultado da Subtração: ", resultado)
+     Caso 3
+        resultado <- num1 * num2
+        Escreval("Resultado da Multiplicação: ", resultado)
+     Caso 4
+        
+        Se num2 <> 0 Entao
+           resultado <- num1 / num2
+           Escreval("Resultado da Divisão: ", resultado)
+        Senao
+           Escreval("Erro: Não é possível dividir por zero!")
+        FimSe
+     OutroCaso
+        Escreval("Opção Inválida! Escolha um número de 1 a 4.")
+  FimEscolha
+Fimalgoritmo
