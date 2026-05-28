@@ -1,0 +1,35 @@
+lgoritmo "SistemaLogin"
+
+
+Var
+
+   senhaDefinida, senhaDigitada : Caractere
+
+Inicio
+
+
+   senhaDefinida <- "senha123"
+
+   Escreval("--- SISTEMA DE ACESSO ---")
+
+   Escreva("Digite a senha: ")
+
+   Leia(senhaDigitada)
+
+
+   Enquanto (senhaDigitada <> senhaDefinida) faca
+
+      Escreval("Senha incorreta! Tente novamente.")
+
+      Escreva("Digite a senha: ")
+
+      Leia(senhaDigitada)
+
+   FimEnquanto
+
+   Escreval("")
+
+   Escreval("Bem-vindo ao sistema! Acesso liberado.")
+
+Fimalgoritmo
+ 
