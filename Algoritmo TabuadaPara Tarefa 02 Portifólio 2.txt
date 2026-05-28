@@ -1,0 +1,31 @@
+Algoritmo "TabuadaPara"
+
+Var
+
+   num, i, resultado : Inteiro
+
+Inicio
+
+   Escreval("--- GERADOR DE TABUADA ---")
+
+   Escreva("Digite um número inteiro positivo: ")
+
+   Leia(num)
+
+   Escreval("")
+
+   Escreval("Tabuada de ", num, ":")
+
+   Escreval("------------------")
+
+   Para i de 1 ate 10 faca
+
+      resultado <- num * i
+
+      Escreval(num, " x ", i, " = ", resultado)
+
+   FimPara
+
+   Escreval("------------------")
+
+Fimalgoritmo
