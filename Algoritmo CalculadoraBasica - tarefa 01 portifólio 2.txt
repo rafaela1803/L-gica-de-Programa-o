@@ -32,7 +32,6 @@ Inicio
         resultado <- num1 * num2
         Escreval("Resultado da Multiplicação: ", resultado)
      Caso 4
-        
         Se num2 <> 0 Entao
            resultado <- num1 / num2
            Escreval("Resultado da Divisão: ", resultado)
